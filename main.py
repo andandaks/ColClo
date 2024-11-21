@@ -207,7 +207,6 @@ st.markdown(
     """
     <style>
     .stLinkButton>a {
-        background-color: white;  /* White background */
         color: black;  /* Columbia University Blue text */
         font-size: 16px;
         text-decoration: none;  /* Removes underline */
@@ -224,7 +223,7 @@ st.markdown(
     </style>
     """, unsafe_allow_html=True)
 
-st.link_button("Button to order", "https://forms.gle/FBHewzUTo1Y7tqQ38", type="primary", use_container_width = True)
+st.link_button("Order button", "https://forms.gle/FBHewzUTo1Y7tqQ38", type="primary", use_container_width = True)
 
 st.markdown(
     '''
