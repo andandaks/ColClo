@@ -202,6 +202,22 @@ with col2:
 # User request form
 st.markdown('<div class="title">Pre-order only | Limited number</div>', unsafe_allow_html=True)
 st.markdown('<div class="title">We will contact you in 24 hours to confirm your order</div>', unsafe_allow_html=True)
+
+st.markdown(
+    """
+    <style>
+    .stLinkButton>a {
+        color: #0033A0;  /* Columbia University Blue */
+        font-size: 16px;
+        text-decoration: none;  /* Removes underline */
+        font-weight: bold;
+    }
+    .stLinkButton>a:hover {
+        color: #005B99;  /* A slightly darker blue on hover */
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.link_button("Button to order", "https://forms.gle/FBHewzUTo1Y7tqQ38", type="primary", use_container_width = True)
 
 st.markdown(
