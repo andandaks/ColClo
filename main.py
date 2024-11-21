@@ -228,7 +228,7 @@ st.link_button("Button to order", "https://forms.gle/FBHewzUTo1Y7tqQ38", type="p
 
 st.markdown(
     '''
-    <div class="subtitle" style="background-color: #6CACE4; color: white;">
+    <div class="subtitle">
         Made by anonymous designers | Columbian Family 2024
     </div>
     ''', unsafe_allow_html=True
