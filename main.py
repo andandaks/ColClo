@@ -207,13 +207,14 @@ st.markdown(
     """
     <style>
     .stLinkButton>a {
+        background-color: #6CACE4;
         color: black;  /* Columbia University Blue text */
         font-size: 16px;
         text-decoration: none;  /* Removes underline */
         font-weight: bold;
         padding: 10px 20px;  /* Adds padding for a button-like feel */
         border-radius: 5px;  /* Rounded corners */
-        border: 2px solid #0033A0;  /* Blue border */
+        border: 2px solid #6CACE4;  /* Blue border */
     }
     .stLinkButton>a:hover {
         background-color: #005B99;  /* Darker blue background on hover */
