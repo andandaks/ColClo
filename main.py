@@ -77,7 +77,7 @@ col1, col2 = st.columns([1, 2])
 
 # Display image in the first column (1/3 of the screen)
 with col1:
-    st.image(image_paths[0], use_container_width=True)  # The image will take up 1/3 of the screen width
+    st.image(image_paths[0], use_container_width=True)
 
 with col2:
     st.write('<div class="title">STRIPED</div>', unsafe_allow_html=True)
@@ -127,7 +127,7 @@ with col2:
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.image(image_paths[2], use_container_width=True)  # The image will take up 1/3 of the screen width
+    st.image(image_paths[2], use_container_width=True)
 
 with col2:
     st.write('<div class="title">RUNNERS</div>', unsafe_allow_html=True)
@@ -177,7 +177,7 @@ with col2:
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    st.image(image_paths[4], use_container_width=True)  # The image will take up 1/3 of the screen width
+    st.image(image_paths[4], use_container_width=True)
 
 with col2:
     st.write('<div class="title">We see the light</div>', unsafe_allow_html=True)
@@ -208,18 +208,18 @@ st.markdown(
     <style>
     .stLinkButton>a {
         background-color: #6CACE4;
-        color: white;  /* Columbia University Blue text */
+        color: white;
         font-size: 16px;
-        text-decoration: none;  /* Removes underline */
+        text-decoration: none;
         font-weight: bold;
-        padding: 10px 20px;  /* Adds padding for a button-like feel */
-        border-radius: 5px;  /* Rounded corners */
-        border: 2px solid #6CACE4;  /* Blue border */
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 2px solid #6CACE4;
     }
     .stLinkButton>a:hover {
-        background-color: #005B99;  /* Darker blue background on hover */
-        color: white;  /* White text on hover */
-        border: 2px solid #005B99;  /* Darker blue border on hover */
+        background-color: #005B99;
+        color: white; 
+        border: 2px solid #005B99;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -229,9 +229,7 @@ st.link_button("Order button", "https://forms.gle/FBHewzUTo1Y7tqQ38", type="prim
 st.markdown(
     '''
     <div class="subtitle">
-        Made by anonymous designers | Columbian Family 2024
+        Made by young designers | Columbian Family 2024
     </div>
     ''', unsafe_allow_html=True
 )
-
-#st.markdown('<div class="subtitle">Made by anonymous designers | Columbian Family 2024</div>', unsafe_allow_html=True)
