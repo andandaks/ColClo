@@ -53,11 +53,11 @@ st.markdown('<div class="subtitle">AW2025</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle"></div>', unsafe_allow_html=True)
 # Display images
 image_paths = [
-    '/im1.png',
-    '/im2.png',
-    '/im3.png',
-    '/im4.png',
-    '/im5.png'
+    'im1.png',
+    'im2.png',
+    'im3.png',
+    'im4.png',
+    'im5.png'
 ]
 # '/Users/andaks/PycharmProjects/Columbia_clo/im5.png'
 st.markdown(
