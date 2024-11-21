@@ -208,7 +208,7 @@ st.markdown(
     <style>
     .stLinkButton>a {
         background-color: white;  /* White background */
-        color: #0033A0;  /* Columbia University Blue text */
+        color: black;  /* Columbia University Blue text */
         font-size: 16px;
         text-decoration: none;  /* Removes underline */
         font-weight: bold;
