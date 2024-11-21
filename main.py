@@ -202,19 +202,7 @@ with col2:
 # User request form
 st.markdown('<div class="title">Pre-order only | Limited number</div>', unsafe_allow_html=True)
 st.markdown('<div class="title">We will contact you in 24 hours to confirm your order</div>', unsafe_allow_html=True)
-with st.form(key='request_form', clear_on_submit=True, border = False):
-    name = st.text_input('Name')
-    user_insta = st.text_input('Instagram')
-    user_email = st.text_input('Email')
-    model_name = st.selectbox('Select a Model', ['STRIPED', 'FUNDAMENTAL', 'RUNNERS', 'LOGO CHEST', 'We see the light'])
-    submit_button = st.form_submit_button(label='Submit')
-
-    if submit_button:
-        if not user_email:  # Check if email is empty
-            st.error("We need your email to contact you")  # Show an error message
-        if user_email:
-            save_response(name, user_email, model_name, user_insta)
-            st.success(f'Request for {model_name} has been recorded! We will text you with payment and delivery details')
+st.link_button("Button to order", "https://forms.gle/FBHewzUTo1Y7tqQ38")
 
 st.markdown(
     '''
